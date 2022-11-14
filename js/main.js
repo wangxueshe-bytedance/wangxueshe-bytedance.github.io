@@ -3,7 +3,37 @@ jQuery(document).ready(function($) {
 
   const data_list = [
     {
-      'link':'./img/21.gif',
+      'link':'./img/weimin/2776550_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
+      'link':'./img/weimin/6191048_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
+      'link':'./img/weimin/7089172_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
+      'link':'./img/weimin/7256329_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
+      'link':'./img/weimin/8489041_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
+      'link':'./img/weimin/9941543_stage2_res_pngs.gif',
       'name': '',
       'header': '',
       'text':'temp'
