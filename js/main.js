@@ -3,6 +3,12 @@ jQuery(document).ready(function($) {
 
   const data_list = [
     {
+      'link':'./img/6191048_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text':'temp'
+    },
+    {
       'link':'./img/1.gif',
       'name': '',
       'header': '',
