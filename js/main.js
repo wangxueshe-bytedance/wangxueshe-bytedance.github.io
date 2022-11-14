@@ -9,12 +9,6 @@ jQuery(document).ready(function($) {
       'text':'temp'
     },
     {
-      'link':'./img/1.gif',
-      'name': '',
-      'header': '',
-      'text':'A confused grizzly bear in calculus class.'
-    },
-    {
       'link':'./img/2.gif',
       'name': '',
       'header': '',
