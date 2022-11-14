@@ -39,30 +39,6 @@ jQuery(document).ready(function($) {
       'text':'temp'
     },
     {
-      'link':'./img/2.gif',
-      'name': '',
-      'header': '',
-      'text':'A person riding a horse in the sunrise.'
-    },
-    {
-      'link':'./img/3.gif',
-      'name': '',
-      'header': '',
-      'text':'Coffee pouring into a cup.'
-    },
-    {
-      'link':'./img/4.gif',
-      'name': '',
-      'header': '',
-      'text':'An astronaut is riding a horse in the space in a photorealistic style'
-    },
-    {
-      'link':'./img/5.gif',
-      'name': '',
-      'header': '',
-      'text':'Robot dancing in times square'
-    },
-    {
       'link':'./img/6.gif',
       'name': '',
       'header': '',
