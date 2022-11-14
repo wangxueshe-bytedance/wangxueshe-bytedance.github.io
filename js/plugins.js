@@ -46,6 +46,12 @@
       'text':'A confused grizzly bear in calculus class.'
     },
     {
+      'link':'./img/21.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'testing'
+    },
+    {
       'link':'./img/2.gif',
       'name': 'MagicVideo',
       'header': '',
