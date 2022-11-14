@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 
   const data_list = [
     {
-      'link':'./img/weimin/real/6191048_stage2_res_pngs.gif',
+      'link':'./img/6191048_stage2_res_pngs.gif',
       'name': '',
       'header': '',
       'text':'temp'
