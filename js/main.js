@@ -11,22 +11,32 @@ jQuery(document).ready(function($) {
     {'link': './img/weimin/real/1031121203_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'International fireworks festival display at night. variety of colorful fireworks in holidays celebration isolated on black. happy new year background.'
+      'text': 'International fireworks festival display at night.'
+    },
+    {'link': './img/weimin/real/4355180_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text': 'International fireworks festival display at night. '
     },
     {'link': './img/weimin/real/1022475643_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'Scenic timelapse of famous niagara falls in ontario province in canada. beautiful view of horseshoe falls with cloudy morning sky in winter.'
+      'text': 'Scenic timelapse of famous niagara falls in ontario province in canada.'
     },
     {'link': './img/weimin/real/1026494993_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'Man with vaping mod exhaling steam at black studio background. bearded guy smoking e-cigarette to quit tobacco. vapor and alternative nicotine free smoking concept'
+      'text': 'Man with vaping mod exhaling steam at black studio background.'
     },
     {'link': './img/weimin/real/1025505206_stage2_res_pngs.gif',
       'name': '',
       'header': '',
       'text': 'A sea turtle casually swimming above a tropical reef'
+    },
+    {'link': './img/weimin/real/3258646_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text': 'A busy traffic junction in tokyo. '
     },
     {'link': './img/daquan/19_stage2_res_pngs.gif',
       'name': '',
@@ -66,7 +76,7 @@ jQuery(document).ready(function($) {
     {'link': './img/weimin/real/1033883435_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'Low angle: old truck drives down an empty road running across the vast green plains and towards spectacular snowy mount everest. local lorry transporting goods across the scenic tibetan wilderness.'
+      'text': 'Low angle: old truck drives down an empty road running across the vast green plains and towards spectacular snowy mount everest. '
     },
     {'link': './img/weimin/real/22190872_stage2_res_pngs.gif',
       'name': '',
@@ -76,12 +86,12 @@ jQuery(document).ready(function($) {
     {'link': './img/weimin/real/30527428_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'Cutting metal with circular saw by industrial cnc machine slow motion. automation of work. manufacture of refrigeration and ventilation industrial equipment and air conditioners.'
+      'text': 'Cutting metal with circular saw by industrial cnc machine slow motion. automation of work.'
     },
     {'link': './img/weimin/real/1029418973_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': "Beautiful pink rose background. blooming rose flower rotation, close-up. wedding backdrop, valentine's day concept. beauty spring romantic rose flower rotated. beautiful rose in motion"
+      'text': "Beautiful pink rose background. blooming rose flower rotation, close-up. wedding backdrop, valentine's day concept."
     },
     {'link': './img/weimin/real/1048565098_stage2_res_pngs.gif',
       'name': '',
@@ -96,7 +106,7 @@ jQuery(document).ready(function($) {
     {'link': './img/weimin/real/1015012054_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': 'Few big purple plums rotating on the turntable. water drops appears on the skin during rotation. isolated on the white background. close-up. macro.'
+      'text': 'Few big purple plums rotating on the turntable. water drops appears on the skin during rotation.'
     },
     {'link': './img/weimin/real/1029681440_stage2_res_pngs.gif',
       'name': '',
@@ -107,6 +117,11 @@ jQuery(document).ready(function($) {
       'name': '',
       'header': '',
       'text': 'close up coffee being poured into a glass. Slow motion. 4K'
+    },
+    {'link': './img/weimin/unreal/9920003_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text': 'A bear is standing behind a bar table'
     },
     {'link': './img/weimin/real/16449856_stage2_res_pngs.gif',
       'name': '',
@@ -180,22 +195,12 @@ jQuery(document).ready(function($) {
     {'link': './img/weimin/real/6191048_stage2_res_pngs.gif',
       'name': '',
       'header': '',
-      'text': '"4k. yellow tulip bloom buds green screen, ultra hd (tulipa viridiflora flaming spring green) (time lapse), 4096x2730.'
-    },
-    {'link': './img/weimin/unreal/9990070_stage2_res_pngs.gif',
-      'name': '',
-      'header': '',
-      'text': 'A person riding a horse in the sunrise. High Definition.'
+      'text': '"yellow tulip bloom buds green screen, ultra hd (tulipa viridiflora flaming spring green) '
     },
     {'link': './img/weimin/unreal/9990051dup9dup1_stage2_res_pngs.gif',
       'name': '',
       'header': '',
       'text': 'A cat eating food out of a bowl, in style of Van Gogh.'
-    },
-    {'link': './img/weimin/unreal/9990020_stage2_res_pngs.gif',
-      'name': '',
-      'header': '',
-      'text': 'A ballerina performs a beautiful and difficult dance on the roof of a very tall skyscraper; the city is lit up and glowing behind her'
     },
     {'link': './img/weimin/unreal/9990072_stage2_res_pngs.gif',
       'name': '',
@@ -246,11 +251,6 @@ jQuery(document).ready(function($) {
       'name': '',
       'header': '',
       'text': 'close up of a golden fish swimming in the ocean. High definition. Slow motion.'
-    },
-    {'link': './img/weimin/unreal/9990042dup1_stage2_res_pngs_speedup.gif',
-      'name': '',
-      'header': '',
-      'text': 'A goldendoodle playing in a park by a lake.'
     },
     {'link': './img/weimin/unreal/9990064_stage2_res_pngs.gif',
       'name': '',
@@ -317,6 +317,11 @@ jQuery(document).ready(function($) {
       'header': '',
       'text': 'A person riding a horse in the sunrise. High Definition.'
     },
+    {'link': './img/weimin/real/10787309_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text': 'A fire in the forest.'
+    },
     {'link': './img/weimin/unreal/9990013_stage2_res_pngs.gif',
       'name': '',
       'header': '',
@@ -347,29 +352,27 @@ jQuery(document).ready(function($) {
       'header': '',
       'text': 'There is a table by a window with sunlight streaming through illuminating a pile of books'
     },
+    {'link': './img/weimin/unreal/9920004dup1_stage2_res_pngs.gif',
+      'name': '',
+      'header': '',
+      'text': 'Smooth landing of spaceship onto mars. '
+    },
   ]
 
   for (data of data_list) {
   if (document.getElementById('image-container')!= null){
-    document.getElementById('image-container').innerHTML += `
-  
-
-    <a href=${data.link} data-lightbox="image-1"><div class="thumb">
-        <div class="hover-effect">
-            <div class="hover-content">
-                 <h1 id="onDesktop">${data.name} <em>${data.header}</em></h1>
-                 <p id="onDesktop">${data.text}</p>
-            </div>
-        </div>
-        <div class="image">
-        <img src=${data.link} alt="imgae not in path">
+    document.getElementById('image-container').innerHTML += `<a href=${data.link} data-lightbox="image-1" style="width:300px;height:auto;">
+    <div class="thumb">
+    <div class="hover-effect"><div class="hover-content" style="width:256px;height:auto;">
+    <h1 id="onDesktop">${data.name} <em>${data.header}</em></h1>
+    <p id="onDesktop">${data.text}</p>
     </div>
-    </div></a>
-
+    </div>
+    <img src=${data.link} alt="image not in path" style="width:256px;height:auto;">
+    </div>
+    </a>
 `;
-
   }
-
 }
 
 	'use strict';
