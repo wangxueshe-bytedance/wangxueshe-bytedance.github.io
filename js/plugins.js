@@ -38,68 +38,7 @@
     this.option(options);
   }
 
-  const data_list = [
-    {
-      'link':'./img/1.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'A confused grizzly bear in calculus class.'
-    },
-    {
-      'link':'./img/21.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'testing'
-    },
-    {
-      'link':'./img/2.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'A person riding a horse in the sunrise.'
-    },
-    {
-      'link':'./img/3.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'Coffee pouring into a cup.'
-    },
-    {
-      'link':'./img/4.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'An astronaut is riding a horse in the space in a photorealistic style'
-    },
-    {
-      'link':'./img/5.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'Robot dancing in times square'
-    },
-    {
-      'link':'./img/6.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'Drone flythrough of a tropical jungle covered in snow.'
-    },
-    {
-      'link':'./img/7.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'A beautiful sunrise on mars, Curiosity rover. High definition, timelapse, dramatic colors.'
-    },
-    {
-      'link':'./img/8.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'Wooden figurine walking on a treadmill made out of exercise mat'
-    },
-    {
-      'link':'./img/9.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text':'Sprouts in the shape of text "Imagen" coming out of a fairytale book.'
-    }
-  ];
+
   // Descriptions of all options available on the demo site:
   // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
@@ -509,7 +448,7 @@
           }
         });
     }
-
+    
     if (this.album.length > 1 && this.options.showImageNumberLabel) {
       // var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
       var labelText = this.imageTextLabel(data_list[this.currentImageIndex].text);

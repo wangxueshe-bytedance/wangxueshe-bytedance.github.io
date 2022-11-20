@@ -1345,8 +1345,9 @@ footer a:hover {
 
 #image-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 256px 256px 256px 256px 256px 256px;
 }
+
 
 @media screen and (max-width:2900px) {
   #onDesktop {
