@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
             </div>
         </div>
         <div class="image">
-        <img src=${data.link} alt="imgae not in path">
+        <video width="40%"  autoplay loop muted src=${data.link} alt="imgae not in path">
     </div>
     </div></a>
 
