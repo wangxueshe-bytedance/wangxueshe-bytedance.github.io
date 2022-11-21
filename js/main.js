@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
             </div>
         </div>
         <div class="image" >
-<video width="100%" autoplay muted loop playsinline src=${data.link} alt="video not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
+<img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
         </div>
     </div></a>
 `;
@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
                       </div>
                     </div>
                     <div class="image" >
-                      <video autoplay muted loop playsinline src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
+                      <img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
                     </div>
              </div></a>
 `;
