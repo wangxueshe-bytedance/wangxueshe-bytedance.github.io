@@ -92,12 +92,12 @@ function is_mobile() {
       'header': '',
       'text':'There is a table by a window with sunlight streaming through illuminating a pile of books.'
     },
-    {
-      'link':'./img/010.gif',
-      'name': 'im10',
-      'header': '',
-      'text':'Beautiful sexy lady in elegant white robe. close up fashion portrait of model indoors. beauty blonde woman.'
-    },
+    // {
+    //   'link':'./img/010.gif',
+    //   'name': 'im10',
+    //   'header': '',
+    //   'text':'Beautiful sexy lady in elegant white robe. close up fashion portrait of model indoors. beauty blonde woman.'
+    // },
     {
       'link':'./img/011.gif',
       'name': 'im11',
@@ -364,7 +364,11 @@ function is_mobile() {
             <div class="inner">
               <h1>Magic Video</h1>
               <p>Efficient Video Generation With Latent Diffusion Models</p>
-              
+              <br/>
+              <p>Daquan Zhou*, Weimin Wang*, Hanshu Yan, Weiwei Lv, Yizhe Zhu, Jiashi Feng</p>
+              <p style="font-size: 14px;">*Equal Contribution.</p>
+              <p>ByteDance Inc</p>
+              <br/><br/><br/>
               <button style="  background-color: #555555; 
               border: none;
               color: white;
@@ -396,7 +400,7 @@ function is_mobile() {
 </div>
 
  <div class="heading-content">
-    <h1>Abstract</h1>
+    <h1>Summary</h1>
     <p>We present an efficient video generation framework based on latent diffusion models, termed as MagicVideo. Given a text description, MagicVideo is able to generate photo-realistic video clips with high relevance to the text content. Different from recent diffusion model based video generation framework that uses cascaded super-resolution pipeline, MagicVideo is able to generate high resolution video frames with single model inference. To make the best use of the prior knowledge from text-to-image generation tasks, we keep most of the convolution operator in 2D space and introduce a unique adaptor for each 2D convolution to learn the frame specific features. The temporal information is learned via a novel directed temporal attention module. It is used to capture the relation among frames and generate temporally meaningful sequence of frames. The whole gen- eration process is within the low dimension latent space of a pre-trained variation auto-encoder. This practice speeds up the training of the video generation model significantly and reduce the sampling time by 80×, compared to traditional DDPM based video diffusion models. We demonstrate that MagicVideo can generate high spatial resolution video clips in a single step without the cascade diffusion pipeline. Mag- icVideo is able to generate both realistic video content and imaginary content in a photo-realistic style with state-of- the-art trade-off in terms of quality and computational cost.</p>
     </div>
 
@@ -426,7 +430,7 @@ Fig. 3 illustrates the whole pipeline.</p>
         </div>
     </footer>
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
