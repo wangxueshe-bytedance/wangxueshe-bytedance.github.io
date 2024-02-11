@@ -1,26 +1,53 @@
 jQuery(document).ready(function($) {
 
-  //for (data of data_list) {
-  for(i = 0; i < 20; i++) {
+//for(i = 0; i < 20; i++) {
+//    data = data_list[i];
+//    if (document.getElementById('image-container')!= null){
+//        document.getElementById('image-container').innerHTML += `
+//            <a href=${data.link} data-lightbox="image-1">
+//                <div class="thumb">
+//                    <div class="hover-effect" name=${data.name} hidden="true">
+//                        <div class="hover-content">
+//                            <p>${data.text}</p>
+//                        </div>
+//                    </div>
+//                    <div class="image" >
+//                        <img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
+//                    </div>
+//                </div>
+//            </a>
+//        `;
+//    }
+//}
+
+for(i = 0; i < 5; i++) {
     data = data_list[i];
-  if (document.getElementById('image-container')!= null){
-    document.getElementById('image-container').innerHTML += `
-    <a href=${data.link} data-lightbox="image-1">
-    <div class="thumb">
-        <div class="hover-effect" name=${data.name} hidden="true">
-            <div class="hover-content">
-                 <p>${data.text}</p>
-            </div>
-        </div>
-        <div class="image" >
-<img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
-        </div>
-    </div></a>
-`;
-
-  }
-
+    if (document.getElementById('image-container')!= null){
+        document.getElementById('image-container').innerHTML += `
+                    <video width="100%" autoplay loop muted>
+                        <source src=${data.link} type="video/mp4">
+                    </video>
+        `;
+    }
 }
+
+//for (i = 0; i < 5; i++) {
+//  data = data_list[i];
+//  if (document.getElementById('video-splash-container') != null) {
+//    document.getElementById('video-splash-container').innerHTML += `
+//      <div class="video-splash-thumb">
+//        <video width="100%" controls>
+//          <source src=${data.link} type="video/mp4">
+//          您的浏览器不支持视频标签。
+//        </video>
+//        <div class="video-description">
+//          <p>${data.text}</p>
+//        </div>
+//      </div>
+//    `;
+//  }
+//}
+
 
 	'use strict';
 

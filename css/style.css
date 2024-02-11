@@ -335,6 +335,18 @@ nav {
 
 /* video 和 overlay 样式保持不变 */
 
+#video-splash-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.video-splash-thumb {
+  width: 20%; /* 每个视频占据屏幕宽度的 20% */
+  height: auto;
+}
+
 
 .portfolio-item img {
   width: 100%;
