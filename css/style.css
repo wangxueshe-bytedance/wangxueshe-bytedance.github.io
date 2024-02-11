@@ -316,6 +316,25 @@ nav {
   background-color: #232323;
 }
 
+.video-container-demo-small {
+  position: relative;
+  width: 320px; /* 视频的宽度 */
+}
+
+.video-container-demo-small video {
+  width: 100%;
+  height: auto;
+}
+
+.videos-flex-container {
+  display: flex;
+  justify-content: space-around; /* 或者使用其他 justify-content 值，如 center, space-between 等 */
+  align-items: center; /* 垂直居中 */
+  flex-wrap: wrap; /* 允许多行显示 */
+}
+
+/* video 和 overlay 样式保持不变 */
+
 
 .portfolio-item img {
   width: 100%;
