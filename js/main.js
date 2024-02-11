@@ -49,27 +49,27 @@ for(i = 0; i < 5; i++) {
 //}
 
 
-	'use strict';
+//	'use strict';
 
-        $('#loadmore').click(function(){
-            document.getElementById('loadmorediv').hidden = true;
-            for(i = 20; i < data_list.length; i++) {
-                data=data_list[i];
-                document.getElementById('image-container').innerHTML += `
-  		  <a href=${data.link} data-lightbox="image-1">
-    		  <div class="thumb">
-                    <div class="hover-effect" name=${data.name} hidden="true">
-                      <div class="hover-content">
-                        <p>${data.text}</p>
-                      </div>
-                    </div>
-                    <div class="image" >
-                      <img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
-                    </div>
-             </div></a>
-`;
-            }
-        });
+//        $('#loadmore').click(function(){
+//            document.getElementById('loadmorediv').hidden = true;
+//            for(i = 20; i < data_list.length; i++) {
+//                data=data_list[i];
+//                document.getElementById('image-container').innerHTML += `
+//  		  <a href=${data.link} data-lightbox="image-1">
+//    		  <div class="thumb">
+//                    <div class="hover-effect" name=${data.name} hidden="true">
+//                      <div class="hover-content">
+//                        <p>${data.text}</p>
+//                      </div>
+//                    </div>
+//                    <div class="image" >
+//                      <img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
+//                    </div>
+//             </div></a>
+//`;
+//            }
+//        });
 
         $(function() {
   

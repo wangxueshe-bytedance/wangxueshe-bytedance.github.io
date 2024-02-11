@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Kanit', sans-serif;
+  padding-top: 79px; /* 使用与 nav 高度相同或更大的值 */
 }
 
 body::-webkit-scrollbar {
@@ -33,6 +34,7 @@ body, html {
 .heading-content  {
   margin-left: 80px;
   margin-right: 80px;
+  position: relative; /* 这允许你正确地定位内部的 'View More' 按钮 */
 }
 .page-heading .heading-content h1 {
   font-size: 32px;
@@ -51,10 +53,10 @@ body, html {
   font-weight: 200;
 }
 
-.heading-content  {
+/*.heading-content  {
   margin-left: 80px;
   margin-left: 80px;
-}
+}*/
 
 
 /* Nav Bar */
@@ -1394,4 +1396,27 @@ footer a:hover {
     display:none;
   }
   
+}
+
+.view-more-button {
+    position: relative; /* 或者使用 relative, 取决于其父容器的定位 */
+    top: 10px; /* 调整这个值以放置在适当的位置 */
+    left: 0%; /* 调整这个值以放置在适当的位置 */
+    padding: 5px 70px;
+    background-color: #555555; /* #007bff Bootstrap 蓝色按钮颜色 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+/*    font-weight: bold;*/
+    font-size: 24px;
+}
+
+.view-more-button:hover {
+    color: white; /* 鼠标悬停时的颜色变化 */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 确保子元素垂直居中 */
 }
