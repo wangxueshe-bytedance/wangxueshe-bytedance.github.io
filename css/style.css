@@ -1407,7 +1407,7 @@ footer a:hover {
     position: relative; /* 或者使用 relative, 取决于其父容器的定位 */
     top: 10px; /* 调整这个值以放置在适当的位置 */
     left: 0%; /* 调整这个值以放置在适当的位置 */
-    padding: 5px 70px;
+    padding: 4px 40px;
     background-color: #555555; /* #007bff Bootstrap 蓝色按钮颜色 */
     color: white;
     text-decoration: none;
