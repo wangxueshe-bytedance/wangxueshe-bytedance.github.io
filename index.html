@@ -152,8 +152,11 @@ function is_mobile() {
                 <h1>Magic-Me</h1>
                 <p>Magic-Me: Identity-Specific Video Customized Diffusion</p>
                 <br/>
-                <p>Ze Ma<sup>*,1</sup>, Daquan Zhou<sup>*,1</sup>, Chun-Hsiao Yeh<sup>2</sup>, Xue-She Wang<sup>1</sup>, Xiuyu Li<sup>2</sup>, Huanrui Yang<sup>2</sup>, Zhen Dong<sup>2</sup>, Kurt Keutzer<sup>2</sup>, Jiashi Feng<sup>1</sup></p>
-                <p style="font-size: smaller">*Equal Contribution.</p>
+                <p>Ze Ma<sup>* 1</sup>, Daquan Zhou<sup>* + 1</sup>, Chun-Hsiao Yeh<sup>2</sup>, Xue-She Wang<sup>1</sup>, Xiuyu Li<sup>2</sup>,</p> 
+                <p>Huanrui Yang<sup>2</sup>, Zhen Dong<sup>+ 2</sup>, Kurt Keutzer<sup>2</sup>, Jiashi Feng<sup>1</sup></p>
+                <p style="font-size: small"><sup>*</sup>Equal Contribution.</p>
+                <p style="font-size: small"><sup>+</sup>Corresponding Author.</p>
+                
                 <p> <sup>1</sup>ByteDance Inc, <sup>2</sup>UC Berkeley</p>
                 <br/><br/><br/>
 <!--                <button style="background-color: #555555; 
@@ -166,7 +169,7 @@ function is_mobile() {
                                 font-size: 16px;">
                     <a href=""> Research Paper (soon to be released)</a>
                 </button>  -->
-                <div style="display: flex; justify-content: center; gap: 20px;">
+                <div style="display: flex; justify-content: center; gap: 20px; margin-left: 20px; margin-right: 20px;">
                     <button style="background-color: #555555; 
                                     border: none;
                                     color: white;
@@ -185,7 +188,7 @@ function is_mobile() {
                                     text-decoration: none;
                                     display: inline-block;
                                     font-size: 16px;">
-                        <a href="https://github.com/Zhen-Dong/Magic-Me"> Github Repo</a>
+                        <a href="https://github.com/Zhen-Dong/Magic-Me"> Github Code</a>
                     </button>  
                     <button style="background-color: #555555; 
                                     border: none;
@@ -195,7 +198,7 @@ function is_mobile() {
                                     text-decoration: none;
                                     display: inline-block;
                                     font-size: 16px;">
-                        <a href="https://colab.research.google.com/drive/12mcMlWjMm3d7etovSCC1CxU4lk2d1bno?usp=sharing"> Colab Notebook </a>
+                        <a href="https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=sharing"> Tutorial </a>
                     </button>  
                 </div>
             </div>
@@ -239,28 +242,28 @@ function is_mobile() {
         
     <div class="videos-flex-container">
 
-        <div class="video-container-demo-small">
+        <div class="video-container-showcase">
             <video width="250" height="200" autoplay loop muted>
                 <source src="./demo_video/video_editting/bainian_original.mp4" type="video/mp4">
             </video>
             <div class="overlay" style="text-align: center; color: white; font-size: 20px;">Original Video</div>
         </div>
         
-        <div class="video-container-demo-small">
+        <div class="video-container-showcase-arrow">
 <!--            <div class="overlay" style="text-align: center; color: black; font-size: 20px;">arrow</div>-->
             <video width="320" height="240" autoplay loop muted>
                 <source src="./demo_video/video_editting/right_arrow_white.mp4" type="video/mp4">
             </video>
         </div>
         
-        <div class="video-container-demo-small">
+        <div class="video-container-showcase">
             <video width="320" height="240" autoplay loop muted>
                 <source src="./demo_video/video_editting/bainian_altman.mp4" type="video/mp4">
             </video>
             <div class="overlay" style="text-align: center; color: white; font-size: 20px;">Sam Altman</div>
         </div>
         
-        <div class="video-container-demo-small">
+        <div class="video-container-showcase">
             
             <video width="320" height="240" autoplay loop muted>
                 <source src="./demo_video/video_editting/bainian_bengio.mp4" type="video/mp4">
@@ -268,7 +271,7 @@ function is_mobile() {
             <div class="overlay" style="text-align: center; color: white; font-size: 20px;">Yoshua Bengio</div>
         </div>
         
-        <div class="video-container-demo-small">
+        <div class="video-container-showcase">
             <video width="320" height="240" autoplay loop muted>
                 <source src="./demo_video/video_editting/bainian_zuck.mp4" type="video/mp4">
             </video>
@@ -296,7 +299,7 @@ function is_mobile() {
 </div>
 
     
-    
+<br>
 <center>
 <img src="img/paper_pipeline_chart.jpg" width="80%"/><br>
 </center>
@@ -351,15 +354,13 @@ function is_mobile() {
         
     </div>  
     
-    <div style="text-align: left; font-size: 18px;">
-        <span style="background-color: #fcde44;">
-            Can't wait to create your own Text-to-Video? --> <a href="https://github.com/Zhen-Dong/Magic-ComfyUI">Magic-ComfyUI</a>
-        </span>
-        <br>
-        <br>
-    </div>
-
+<!--    <div style="text-align: right; ">
+        <a href="./superman.html" class="view-more-button">View More</a>
+    </div>-->
+    
     </p>
+    
+    
         
     
     <div class="header-container">
@@ -371,9 +372,9 @@ function is_mobile() {
     <div class="videos-flex-container">
         
         <div class="video-container-demo-small">
-            <div class="overlay">Beyonce</div>
+            <div class="overlay">Yoshua Bengio</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/cherry_blossoms/beyonce-gstep-600_00001.mp4" type="video/mp4">
+                <source src="./demo_video/cherry_blossoms/SR-cherry_00009.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -392,9 +393,9 @@ function is_mobile() {
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Lisa</div>
+            <div class="overlay">Donald Trump</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/cherry_blossoms/lisa-gstep-600_00001.mp4" type="video/mp4">
+                <source src="./demo_video/cherry_blossoms/SR-cherry_00079.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -406,14 +407,10 @@ function is_mobile() {
         </div>
     
     </div>
+<!--    <div style="text-align: right; ">
+        <a href="./superman.html" class="view-more-button">View More</a>
+    </div>-->
     
-    <div style="text-align: left; font-size: 18px;">
-        <span style="background-color: #fcde44;">
-            Can't wait to create your own Text-to-Video? --> <a href="https://github.com/Zhen-Dong/Magic-ComfyUI">Magic-ComfyUI</a>
-        </span>
-        <br>
-        <br>
-    </div>
     </p>
     
     
@@ -426,16 +423,16 @@ function is_mobile() {
     <div class="videos-flex-container">
     
         <div class="video-container-demo-small">
-            <div class="overlay">Beyonce</div>
+            <div class="overlay">Taylor Swift</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/walking/beyonce-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/walking/taylor-gstep-200_00001.mp4" type="video/mp4">
             </video>
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Harry Potter</div>
+            <div class="overlay">Donald Trump</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/walking/harry-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/walking/SR_trump_00006.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -454,21 +451,16 @@ function is_mobile() {
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Taylor Swift</div>
+            <div class="overlay">Barack Obama</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/walking/taylor-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/walking/SR_obama_00002.mp4" type="video/mp4">
             </video>
         </div>
     
     </div>
-    
-    <div style="text-align: left; font-size: 18px;">
-        <span style="background-color: #fcde44;">
-            Can't wait to create your own Text-to-Video? --> <a href="https://github.com/Zhen-Dong/Magic-ComfyUI">Magic-ComfyUI</a>
-        </span>
-        <br>
-        <br>
-    </div>
+<!--    <div style="text-align: right; ">
+        <a href="./superman.html" class="view-more-button">View More</a>
+    </div>-->
     </p>
     
     
@@ -480,17 +472,17 @@ function is_mobile() {
     <p style="font-size:large">
     <div class="videos-flex-container">
     
-        <div class="video-container-demo-small">
-            <div class="overlay">Elon Musk</div>
+         <div class="video-container-demo-small">
+            <div class="overlay">Taylor Swift</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/northern_lights/musk-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/northern_lights/taylor-gstep-400_00002.mp4" type="video/mp4">
             </video>
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Barack Obama</div>
+            <div class="overlay">Dwayne Johnson</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/northern_lights/obama-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/northern_lights/johnson-gstep-400_00002.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -502,9 +494,9 @@ function is_mobile() {
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Joe Biden</div>
+            <div class="overlay">Elon Musk</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/northern_lights/biden-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/northern_lights/musk-gstep-200_00001.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -516,14 +508,9 @@ function is_mobile() {
         </div>
         
     </div>
-    
-    <div style="text-align: left; font-size: 18px;">
-        <span style="background-color: #fcde44;">
-            Can't wait to create your own Text-to-Video? --> <a href="https://github.com/Zhen-Dong/Magic-ComfyUI">Magic-ComfyUI</a>
-        </span>
-        <br>
-        <br>
-    </div>
+<!--    <div style="text-align: right; ">
+        <a href="./superman.html" class="view-more-button">View More</a>
+    </div>-->
     </p>
     
     
@@ -543,9 +530,9 @@ function is_mobile() {
         </div>
         
         <div class="video-container-demo-small">
-            <div class="overlay">Geoffrey Hinton</div>
+            <div class="overlay">Sam Altman</div>
             <video width="320" height="240" autoplay loop muted>
-                <source src="./demo_video/desert/hinton-gstep-200_00001.mp4" type="video/mp4">
+                <source src="./demo_video/desert/altman-gstep-400_00002.mp4" type="video/mp4">
             </video>
         </div>
         
@@ -571,10 +558,15 @@ function is_mobile() {
         </div>
         
     </div>
+<!--    <div style="text-align: right; ">
+        <a href="./superman.html" class="view-more-button">View More</a>
+    </div>-->
     
-    <div style="text-align: left; font-size: 18px;">
+    <br>
+    <br>
+    <div style="text-align: left; font-size: 23px;">
         <span style="background-color: #fcde44;">
-            Can't wait to create your own Text-to-Video? --> <a href="https://github.com/Zhen-Dong/Magic-ComfyUI">Magic-ComfyUI</a>
+            Can't wait to create your own videos? --> <a href="https://github.com/Zhen-Dong/Magic-Me/blob/demo/README.md">Magic-Me</a>
         </span>
         <br>
         <br>

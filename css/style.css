@@ -32,8 +32,8 @@ body, html {
 }
 
 .heading-content  {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
   position: relative; /* 这允许你正确地定位内部的 'View More' 按钮 */
 /*  background-color: black;*/
 }
@@ -242,7 +242,7 @@ nav {
 #video-container  {
   position: relative;
   width: 100%;
-  height: 70%;
+  height: 600px;
   overflow: hidden;
   z-index: 1;
 }
@@ -323,8 +323,8 @@ nav {
 .video-container-demo-small {
   position: relative;
   width: 18%; /* 视频的宽度 */
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   margin-bottom: 20px
 }
 
@@ -1414,6 +1414,8 @@ footer a:hover {
     border-radius: 5px;
 /*    font-weight: bold;*/
     font-size: 24px;
+    
+    justify-content: flex-end;
 }
 
 .view-more-button:hover {
@@ -1428,4 +1430,30 @@ footer a:hover {
 
 .video-editting-showcase {
   background-color: black;
+}
+
+.video-container-showcase {
+  position: relative;
+  width: 23%; /* 视频的宽度 */
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px
+}
+
+.video-container-showcase video {
+  width: 100%;
+  height: auto;
+}
+
+.video-container-showcase-arrow {
+  position: relative;
+  width: 6.5%; /* 视频的宽度 */
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px
+}
+
+.video-container-showcase-arrow video {
+  width: 100%;
+  height: auto;
 }
